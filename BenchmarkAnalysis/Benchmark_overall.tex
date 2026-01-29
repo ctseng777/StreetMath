@@ -1,0 +1,31 @@
+\begin{table*}[t]
+\centering
+  \centering
+  \small
+  \begin{threeparttable}
+  
+  \begin{tabular}{lrrrrrrr}
+  \toprule
+  Model & A & E & M & W & Uncategorized & Tool calls & Avg tokens \\
+  \midrule
+  dream-v0-instruct-7b & 5837 & 2658 & 1372 & 121 & 11 & 0 & 358 \\
+  dream-v0-instruct-7b-hint & 7378 & 932 & 1226 & 459 & 5 & 0 & 435 \\
+  dream-v0-instruct-7b\_4\_steps & 6432 & 1981 & 959 & 610 & 18 & 0 & 358 \\
+  dream-v0-instruct-7b\_8\_steps & 6368 & 2217 & 994 & 398 & 23 & 0 & 358 \\
+  falcon-H1-34B-Instruct & 5228 & 4512 & 255 & 5 & 0 & 0 & 124 \\
+  falcon-H1-7B-Instruct & 5673 & 3418 & 803 & 106 & 0 & 0 & 127 \\
+  falcon-H1-7B-Instruct-hint & 7342 & 1199 & 1365 & 94 & 0 & 0 & 208 \\
+  qwen2\_5\_32b\_instruct & 5937 & 3772 & 286 & 5 & 0 & 0 & 112 \\
+  qwen2\_5\_32b\_instruct\_hint & 8181 & 1400 & 398 & 21 & 0 & 0 & 187 \\
+  qwen2\_5\_3b\_instruct & 5727 & 2112 & 1682 & 479 & 0 & 0 & 114 \\
+  qwen2\_5\_3b\_instruct\_hint & 6679 & 898 & 1879 & 544 & 0 & 0 & 186 \\
+  \bottomrule
+  \end{tabular}
+  \begin{tablenotes}
+  \small
+  \item Abbreviations: A = Good approximation, E = Exact Math, M = Mildly off, W = Way off
+  \end{tablenotes}
+  \end{threeparttable}
+  \caption{Overall judgement counts by model with tool calls and average total tokens (rounded).}
+  \label{table:benchmark}
+\end{table*}

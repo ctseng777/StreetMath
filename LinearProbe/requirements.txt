@@ -1,0 +1,19 @@
+# Core deep learning stack
+torch
+
+# Hugging Face stack
+transformers==4.44.2
+accelerate>=0.34.2
+tokenizers>=0.19.1
+safetensors>=0.4.2
+
+# Probing and utilities
+scikit-learn==1.5.1
+numpy>=1.24
+num2words==0.5.13
+einops>=0.7.0
+
+# Notes:
+# - The script uses device_map="auto" with accelerate; install a CUDA-enabled PyTorch
+#   build if you want GPU acceleration (see https://pytorch.org/get-started/locally/).
+# - The specified transformers version includes FalconMamba support.

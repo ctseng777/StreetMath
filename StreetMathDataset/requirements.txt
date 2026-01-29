@@ -1,0 +1,19 @@
+# Core runtime
+numpy==1.26.4
+requests==2.32.5
+tqdm==4.67.1
+packaging==25.0
+pyyaml==6.0.3
+regex==2024.11.6
+typing_extensions==4.15.0
+
+# HF stack
+huggingface-hub==0.36.0
+tokenizers==0.21.4
+safetensors==0.4.3
+transformers==4.51.0
+accelerate>=1.1.0
+datasets==2.20.0
+
+# Torch
+torch==2.3.0

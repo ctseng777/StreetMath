@@ -1,0 +1,23 @@
+\begin{table*}[!t]
+  \centering
+  \small
+  \setlength{\tabcolsep}{1.0pt}
+  \renewcommand{\arraystretch}{1.05}
+  \caption{Comprehensive Near-8 (Words) Analysis: Performance and Error Patterns at the best layer. Acc = Accuracy; Err = Error rate}
+  \label{tab:near8_words}
+  \begin{tabular}{|>{\raggedright\arraybackslash}p{0.25\textwidth}|c|c|c|c|c|c|c|c|}
+  \hline
+  \textbf{Model} & \textbf{Peak Acc} & \textbf{Total Layers} & \textbf{Best Layer} & \textbf{Err (0)} & \textbf{Err (1)} & \textbf{Err (2)} & \textbf{Err (3)} & \textbf{Err (4)} \\
+  \hline
+  Dream-v0-Instruct-7B & 0.658 & 28 & 20 (71\% depth) & 98.5\% & 100.0\% & 0.0\% & 0.0\% & 0.0\% \\
+  \hline
+  \makecell[tl]{Falcon-H1-34B-Instruct} & 0.659 & 72 & 8 (11\% depth) & 77.5\% & 81.0\% & 3.8\% & 10.9\% & 7.0\% \\
+  \hline
+  \makecell[tl]{Falcon-H1-7B-Instruct} & 0.661 & 44 & 28 (64\% depth) & 66.5\% & 71.8\% & 2.4\% & 25.8\% & 5.4\% \\
+  \hline
+  Qwen2.5-32B-Instruct & 0.749 & 64 & 22 (34\% depth) & 52.2\% & 52.8\% & 7.2\% & 9.8\% & 10.8\% \\
+  \hline
+  Qwen2.5-3B-Instruct & 0.623 & 36 & 4 (11\% depth) & 97.8\% & 96.2\% & 2.9\% & 3.6\% & 2.2\% \\
+  \hline
+  \end{tabular}
+\end{table*}

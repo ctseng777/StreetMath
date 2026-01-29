@@ -1,0 +1,10 @@
+Rules:
+- Estimate — do NOT compute exact totals unless trivial.
+- Round numbers sensibly (e.g., $9.99→$10, 2.97 lb→3 lb).
+- You MUST select exactly one label from {label_set} (the closest option).
+- Be concise. If you need to think step-by-step, place it inside <think>...</think>.
+
+Respond in this exact format (no extra text):
+Final choice: <A|B|C|D>
+Answer: <numeric answer if any>
+Reasoning: <one short sentence>

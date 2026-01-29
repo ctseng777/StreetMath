@@ -1,0 +1,598 @@
+nohup: ignoring input
+==================================================
+Starting: linear_probe_falcon_7b_near_2.py
+Time: Mon Jan 19 03:55:46 UTC 2026
+==================================================
+`torch_dtype` is deprecated! Use `dtype` instead!
+The following generation flags are not valid and may be ignored: ['output_hidden_states']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The fast path is not available because one of `(selective_state_update, causal_conv1d_fn, causal_conv1d_update)` is None. Falling back to the naive implementation. To install follow https://github.com/state-spaces/mamba/#installation and https://github.com/Dao-AILab/causal-conv1d
+
+========== FALCON_7B: tiiuae/Falcon-H1-7B-Instruct ==========
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:33<01:39, 33.21s/it]Loading checkpoint shards:  50%|█████     | 2/4 [01:11<01:12, 36.07s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [01:46<00:35, 35.52s/it]Loading checkpoint shards: 100%|██████████| 4/4 [01:47<00:00, 22.05s/it]Loading checkpoint shards: 100%|██████████| 4/4 [01:47<00:00, 26.89s/it]
+Layers: 45 | Width: 3072
+  [Progress] Starting stream for 4000 samples (286 batches)...
+    Processing batch 10/286 જુ
+    Processing batch 20/286 જુ
+    Processing batch 30/286 જુ
+    Processing batch 40/286 જુ
+    Processing batch 50/286 જુ
+    Processing batch 60/286 જુ
+    Processing batch 70/286 જુ
+    Processing batch 80/286 જુ
+    Processing batch 90/286 જુ
+    Processing batch 100/286 જુ
+    Processing batch 110/286 જુ
+    Processing batch 120/286 જુ
+    Processing batch 130/286 જુ
+    Processing batch 140/286 જુ
+    Processing batch 150/286 જુ
+    Processing batch 160/286 જુ
+    Processing batch 170/286 જુ
+    Processing batch 180/286 જુ
+    Processing batch 190/286 જુ
+    Processing batch 200/286 જુ
+    Processing batch 210/286 જુ
+    Processing batch 220/286 જુ
+    Processing batch 230/286 જુ
+    Processing batch 240/286 જુ
+    Processing batch 250/286 જુ
+    Processing batch 260/286 જુ
+    Processing batch 270/286 જુ
+    Processing batch 280/286 જુ
+  [Progress] Starting stream for 4000 samples (286 batches)...
+    Processing batch 10/286 જુ
+    Processing batch 20/286 જુ
+    Processing batch 30/286 જુ
+    Processing batch 40/286 જુ
+    Processing batch 50/286 જુ
+    Processing batch 60/286 જુ
+    Processing batch 70/286 જુ
+    Processing batch 80/286 જુ
+    Processing batch 90/286 જુ
+    Processing batch 100/286 જુ
+    Processing batch 110/286 જુ
+    Processing batch 120/286 જુ
+    Processing batch 130/286 જુ
+    Processing batch 140/286 જુ
+    Processing batch 150/286 જુ
+    Processing batch 160/286 જુ
+    Processing batch 170/286 જુ
+    Processing batch 180/286 જુ
+    Processing batch 190/286 જુ
+    Processing batch 200/286 જુ
+    Processing batch 210/286 જુ
+    Processing batch 220/286 જુ
+    Processing batch 230/286 જુ
+    Processing batch 240/286 જુ
+    Processing batch 250/286 જુ
+    Processing batch 260/286 જુ
+    Processing batch 270/286 જુ
+    Processing batch 280/286 જુ
+  [Progress] Starting stream for 1500 samples (108 batches)...
+    Processing batch 10/108 જુ
+    Processing batch 20/108 જુ
+    Processing batch 30/108 જુ
+    Processing batch 40/108 જુ
+    Processing batch 50/108 જુ
+    Processing batch 60/108 જુ
+    Processing batch 70/108 જુ
+    Processing batch 80/108 જુ
+    Processing batch 90/108 જુ
+    Processing batch 100/108 જુ
+Eval[digits_paraphrase] best layer 2 acc=0.928
+  [Progress] Starting stream for 1500 samples (108 batches)...
+    Processing batch 10/108 જુ
+    Processing batch 20/108 જુ
+    Processing batch 30/108 જુ
+    Processing batch 40/108 જુ
+    Processing batch 50/108 જુ
+    Processing batch 60/108 જુ
+    Processing batch 70/108 જુ
+    Processing batch 80/108 જુ
+    Processing batch 90/108 જુ
+    Processing batch 100/108 જુ
+  [Progress] Starting stream for 1500 samples (108 batches)...
+    Processing batch 10/108 જુ
+    Processing batch 20/108 જુ
+    Processing batch 30/108 જુ
+    Processing batch 40/108 જુ
+    Processing batch 50/108 જુ
+    Processing batch 60/108 જુ
+    Processing batch 70/108 જુ
+    Processing batch 80/108 જુ
+    Processing batch 90/108 જુ
+    Processing batch 100/108 જુ
+Eval[words] best layer 17 acc=0.811
+  [Progress] Starting stream for 1500 samples (108 batches)...
+    Processing batch 10/108 જુ
+    Processing batch 20/108 જુ
+    Processing batch 30/108 જુ
+    Processing batch 40/108 જુ
+    Processing batch 50/108 જુ
+    Processing batch 60/108 જુ
+    Processing batch 70/108 જુ
+    Processing batch 80/108 જુ
+    Processing batch 90/108 જુ
+    Processing batch 100/108 જુ
+
+Finished: linear_probe_falcon_7b_near_2.py
+Logs saved to: linear_probe_falcon_7b_near_2.log
+Cleaning up...
+==================================================
+Starting: linear_probe_falcon_7b_near_3.py
+Time: Mon Jan 19 05:48:24 UTC 2026
+==================================================
+`torch_dtype` is deprecated! Use `dtype` instead!
+The following generation flags are not valid and may be ignored: ['output_hidden_states']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The fast path is not available because one of `(selective_state_update, causal_conv1d_fn, causal_conv1d_update)` is None. Falling back to the naive implementation. To install follow https://github.com/state-spaces/mamba/#installation and https://github.com/Dao-AILab/causal-conv1d
+
+========== FALCON_7B: tiiuae/Falcon-H1-7B-Instruct ==========
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:32<01:37, 32.65s/it]Loading checkpoint shards:  50%|█████     | 2/4 [01:11<01:13, 36.53s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [01:46<00:35, 35.59s/it]Loading checkpoint shards: 100%|██████████| 4/4 [01:47<00:00, 22.05s/it]Loading checkpoint shards: 100%|██████████| 4/4 [01:47<00:00, 26.91s/it]
+Layers: 45 | Width: 3072
+  [Progress] Starting stream for 4000 samples (286 batches)...
+    Processing batch 10/286 જુ
+    Processing batch 20/286 જુ
+    Processing batch 30/286 જુ
+    Processing batch 40/286 જુ
+    Processing batch 50/286 જુ
+    Processing batch 60/286 જુ
+    Processing batch 70/286 જુ
+    Processing batch 80/286 જુ
+    Processing batch 90/286 જુ
+    Processing batch 100/286 જુ
+    Processing batch 110/286 જુ
+    Processing batch 120/286 જુ
+    Processing batch 130/286 જુ
+    Processing batch 140/286 જુ
+    Processing batch 150/286 જુ
+    Processing batch 160/286 જુ
+    Processing batch 170/286 જુ
+    Processing batch 180/286 જુ
+    Processing batch 190/286 જુ
+    Processing batch 200/286 જુ
+    Processing batch 210/286 જુ
+    Processing batch 220/286 જુ
+    Processing batch 230/286 જુ
+    Processing batch 240/286 જુ
+    Processing batch 250/286 જુ
+    Processing batch 260/286 જુ
+    Processing batch 270/286 જુ
+    Processing batch 280/286 જુ
+  [Progress] Starting stream for 4000 samples (286 batches)...
+    Processing batch 10/286 જુ
+    Processing batch 20/286 જુ
+    Processing batch 30/286 જુ
+    Processing batch 40/286 જુ
+    Processing batch 50/286 જુ
+    Processing batch 60/286 જુ
+    Processing batch 70/286 જુ
+    Processing batch 80/286 જુ
+    Processing batch 90/286 જુ
+    Processing batch 100/286 જુ
+    Processing batch 110/286 જુ
+    Processing batch 120/286 જુ
+    Processing batch 130/286 જુ
+    Processing batch 140/286 જુ
+    Processing batch 150/286 જુ
+    Processing batch 160/286 જુ
+    Processing batch 170/286 જુ
+    Processing batch 180/286 જુ
+    Processing batch 190/286 જુ
+    Processing batch 200/286 જુ
+    Processing batch 210/286 જુ
+    Processing batch 220/286 જુ
+    Processing batch 230/286 જુ
+    Processing batch 240/286 જુ
+    Processing batch 250/286 જુ
+    Processing batch 260/286 જુ
+    Processing batch 270/286 જુ
+    Processing batch 280/286 જુ
+  [Progress] Starting stream for 1500 samples (108 batches)...
+    Processing batch 10/108 જુ
+    Processing batch 20/108 જુ
+    Processing batch 30/108 જુ
+    Processing batch 40/108 જુ
+    Processing batch 50/108 જુ
+    Processing batch 60/108 જુ
+    Processing batch 70/108 જુ
+    Processing batch 80/108 જુ
+    Processing batch 90/108 જુ
+    Processing batch 100/108 જુ
+Eval[digits_paraphrase] best layer 10 acc=0.816
+  [Progress] Starting stream for 1500 samples (108 batches)...
+    Processing batch 10/108 જુ
+    Processing batch 20/108 જુ
+    Processing batch 30/108 જુ
+    Processing batch 40/108 જુ
+    Processing batch 50/108 જુ
+    Processing batch 60/108 જુ
+    Processing batch 70/108 જુ
+    Processing batch 80/108 જુ
+    Processing batch 90/108 જુ
+    Processing batch 100/108 જુ
+  [Progress] Starting stream for 1500 samples (108 batches)...
+    Processing batch 10/108 જુ
+    Processing batch 20/108 જુ
+    Processing batch 30/108 જુ
+    Processing batch 40/108 જુ
+    Processing batch 50/108 જુ
+    Processing batch 60/108 જુ
+    Processing batch 70/108 જુ
+    Processing batch 80/108 જુ
+    Processing batch 90/108 જુ
+    Processing batch 100/108 જુ
+Eval[words] best layer 1 acc=0.659
+  [Progress] Starting stream for 1500 samples (108 batches)...
+    Processing batch 10/108 જુ
+    Processing batch 20/108 જુ
+    Processing batch 30/108 જુ
+    Processing batch 40/108 જુ
+    Processing batch 50/108 જુ
+    Processing batch 60/108 જુ
+    Processing batch 70/108 જુ
+    Processing batch 80/108 જુ
+    Processing batch 90/108 જુ
+    Processing batch 100/108 જુ
+
+Finished: linear_probe_falcon_7b_near_3.py
+Logs saved to: linear_probe_falcon_7b_near_3.log
+Cleaning up...
+==================================================
+Starting: linear_probe_falcon_7b_near_4.py
+Time: Mon Jan 19 07:41:18 UTC 2026
+==================================================
+`torch_dtype` is deprecated! Use `dtype` instead!
+The following generation flags are not valid and may be ignored: ['output_hidden_states']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The fast path is not available because one of `(selective_state_update, causal_conv1d_fn, causal_conv1d_update)` is None. Falling back to the naive implementation. To install follow https://github.com/state-spaces/mamba/#installation and https://github.com/Dao-AILab/causal-conv1d
+
+========== FALCON_7B: tiiuae/Falcon-H1-7B-Instruct ==========
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:34<01:42, 34.23s/it]Loading checkpoint shards:  50%|█████     | 2/4 [01:13<01:14, 37.33s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [01:50<00:36, 36.98s/it]Loading checkpoint shards: 100%|██████████| 4/4 [01:51<00:00, 22.95s/it]Loading checkpoint shards: 100%|██████████| 4/4 [01:51<00:00, 27.94s/it]
+Layers: 45 | Width: 3072
+  [Progress] Starting stream for 4000 samples (286 batches)...
+    Processing batch 10/286 જુ
+    Processing batch 20/286 જુ
+    Processing batch 30/286 જુ
+    Processing batch 40/286 જુ
+    Processing batch 50/286 જુ
+    Processing batch 60/286 જુ
+    Processing batch 70/286 જુ
+    Processing batch 80/286 જુ
+    Processing batch 90/286 જુ
+    Processing batch 100/286 જુ
+    Processing batch 110/286 જુ
+    Processing batch 120/286 જુ
+    Processing batch 130/286 જુ
+    Processing batch 140/286 જુ
+    Processing batch 150/286 જુ
+    Processing batch 160/286 જુ
+    Processing batch 170/286 જુ
+    Processing batch 180/286 જુ
+    Processing batch 190/286 જુ
+    Processing batch 200/286 જુ
+    Processing batch 210/286 જુ
+    Processing batch 220/286 જુ
+    Processing batch 230/286 જુ
+    Processing batch 240/286 જુ
+    Processing batch 250/286 જુ
+    Processing batch 260/286 જુ
+    Processing batch 270/286 જુ
+    Processing batch 280/286 જુ
+  [Progress] Starting stream for 4000 samples (286 batches)...
+    Processing batch 10/286 જુ
+    Processing batch 20/286 જુ
+    Processing batch 30/286 જુ
+    Processing batch 40/286 જુ
+    Processing batch 50/286 જુ
+    Processing batch 60/286 જુ
+    Processing batch 70/286 જુ
+    Processing batch 80/286 જુ
+    Processing batch 90/286 જુ
+    Processing batch 100/286 જુ
+    Processing batch 110/286 જુ
+    Processing batch 120/286 જુ
+    Processing batch 130/286 જુ
+    Processing batch 140/286 જુ
+    Processing batch 150/286 જુ
+    Processing batch 160/286 જુ
+    Processing batch 170/286 જુ
+    Processing batch 180/286 જુ
+    Processing batch 190/286 જુ
+    Processing batch 200/286 જુ
+    Processing batch 210/286 જુ
+    Processing batch 220/286 જુ
+    Processing batch 230/286 જુ
+    Processing batch 240/286 જુ
+    Processing batch 250/286 જુ
+    Processing batch 260/286 જુ
+    Processing batch 270/286 જુ
+    Processing batch 280/286 જુ
+  [Progress] Starting stream for 1500 samples (108 batches)...
+    Processing batch 10/108 જુ
+    Processing batch 20/108 જુ
+    Processing batch 30/108 જુ
+    Processing batch 40/108 જુ
+    Processing batch 50/108 જુ
+    Processing batch 60/108 જુ
+    Processing batch 70/108 જુ
+    Processing batch 80/108 જુ
+    Processing batch 90/108 જુ
+    Processing batch 100/108 જુ
+Eval[digits_paraphrase] best layer 6 acc=0.859
+  [Progress] Starting stream for 1500 samples (108 batches)...
+    Processing batch 10/108 જુ
+    Processing batch 20/108 જુ
+    Processing batch 30/108 જુ
+    Processing batch 40/108 જુ
+    Processing batch 50/108 જુ
+    Processing batch 60/108 જુ
+    Processing batch 70/108 જુ
+    Processing batch 80/108 જુ
+    Processing batch 90/108 જુ
+    Processing batch 100/108 જુ
+  [Progress] Starting stream for 1500 samples (108 batches)...
+    Processing batch 10/108 જુ
+    Processing batch 20/108 જુ
+    Processing batch 30/108 જુ
+    Processing batch 40/108 જુ
+    Processing batch 50/108 જુ
+    Processing batch 60/108 જુ
+    Processing batch 70/108 જુ
+    Processing batch 80/108 જુ
+    Processing batch 90/108 જુ
+    Processing batch 100/108 જુ
+Eval[words] best layer 10 acc=0.824
+  [Progress] Starting stream for 1500 samples (108 batches)...
+    Processing batch 10/108 જુ
+    Processing batch 20/108 જુ
+    Processing batch 30/108 જુ
+    Processing batch 40/108 જુ
+    Processing batch 50/108 જુ
+    Processing batch 60/108 જુ
+    Processing batch 70/108 જુ
+    Processing batch 80/108 જુ
+    Processing batch 90/108 જુ
+    Processing batch 100/108 જુ
+
+Finished: linear_probe_falcon_7b_near_4.py
+Logs saved to: linear_probe_falcon_7b_near_4.log
+Cleaning up...
+==================================================
+Starting: linear_probe_falcon_7b_near_6.py
+Time: Mon Jan 19 09:33:58 UTC 2026
+==================================================
+`torch_dtype` is deprecated! Use `dtype` instead!
+The following generation flags are not valid and may be ignored: ['output_hidden_states']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The fast path is not available because one of `(selective_state_update, causal_conv1d_fn, causal_conv1d_update)` is None. Falling back to the naive implementation. To install follow https://github.com/state-spaces/mamba/#installation and https://github.com/Dao-AILab/causal-conv1d
+
+========== FALCON_7B: tiiuae/Falcon-H1-7B-Instruct ==========
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:35<01:45, 35.18s/it]Loading checkpoint shards:  50%|█████     | 2/4 [01:15<01:16, 38.24s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [01:52<00:37, 37.69s/it]Loading checkpoint shards: 100%|██████████| 4/4 [01:54<00:00, 23.39s/it]Loading checkpoint shards: 100%|██████████| 4/4 [01:54<00:00, 28.52s/it]
+Layers: 45 | Width: 3072
+  [Progress] Starting stream for 4000 samples (286 batches)...
+    Processing batch 10/286 જુ
+    Processing batch 20/286 જુ
+    Processing batch 30/286 જુ
+    Processing batch 40/286 જુ
+    Processing batch 50/286 જુ
+    Processing batch 60/286 જુ
+    Processing batch 70/286 જુ
+    Processing batch 80/286 જુ
+    Processing batch 90/286 જુ
+    Processing batch 100/286 જુ
+    Processing batch 110/286 જુ
+    Processing batch 120/286 જુ
+    Processing batch 130/286 જુ
+    Processing batch 140/286 જુ
+    Processing batch 150/286 જુ
+    Processing batch 160/286 જુ
+    Processing batch 170/286 જુ
+    Processing batch 180/286 જુ
+    Processing batch 190/286 જુ
+    Processing batch 200/286 જુ
+    Processing batch 210/286 જુ
+    Processing batch 220/286 જુ
+    Processing batch 230/286 જુ
+    Processing batch 240/286 જુ
+    Processing batch 250/286 જુ
+    Processing batch 260/286 જુ
+    Processing batch 270/286 જુ
+    Processing batch 280/286 જુ
+  [Progress] Starting stream for 4000 samples (286 batches)...
+    Processing batch 10/286 જુ
+    Processing batch 20/286 જુ
+    Processing batch 30/286 જુ
+    Processing batch 40/286 જુ
+    Processing batch 50/286 જુ
+    Processing batch 60/286 જુ
+    Processing batch 70/286 જુ
+    Processing batch 80/286 જુ
+    Processing batch 90/286 જુ
+    Processing batch 100/286 જુ
+    Processing batch 110/286 જુ
+    Processing batch 120/286 જુ
+    Processing batch 130/286 જુ
+    Processing batch 140/286 જુ
+    Processing batch 150/286 જુ
+    Processing batch 160/286 જુ
+    Processing batch 170/286 જુ
+    Processing batch 180/286 જુ
+    Processing batch 190/286 જુ
+    Processing batch 200/286 જુ
+    Processing batch 210/286 જુ
+    Processing batch 220/286 જુ
+    Processing batch 230/286 જુ
+    Processing batch 240/286 જુ
+    Processing batch 250/286 જુ
+    Processing batch 260/286 જુ
+    Processing batch 270/286 જુ
+    Processing batch 280/286 જુ
+  [Progress] Starting stream for 1500 samples (108 batches)...
+    Processing batch 10/108 જુ
+    Processing batch 20/108 જુ
+    Processing batch 30/108 જુ
+    Processing batch 40/108 જુ
+    Processing batch 50/108 જુ
+    Processing batch 60/108 જુ
+    Processing batch 70/108 જુ
+    Processing batch 80/108 જુ
+    Processing batch 90/108 જુ
+    Processing batch 100/108 જુ
+Eval[digits_paraphrase] best layer 15 acc=0.618
+  [Progress] Starting stream for 1500 samples (108 batches)...
+    Processing batch 10/108 જુ
+    Processing batch 20/108 જુ
+    Processing batch 30/108 જુ
+    Processing batch 40/108 જુ
+    Processing batch 50/108 જુ
+    Processing batch 60/108 જુ
+    Processing batch 70/108 જુ
+    Processing batch 80/108 જુ
+    Processing batch 90/108 જુ
+    Processing batch 100/108 જુ
+  [Progress] Starting stream for 1500 samples (108 batches)...
+    Processing batch 10/108 જુ
+    Processing batch 20/108 જુ
+    Processing batch 30/108 જુ
+    Processing batch 40/108 જુ
+    Processing batch 50/108 જુ
+    Processing batch 60/108 જુ
+    Processing batch 70/108 જુ
+    Processing batch 80/108 જુ
+    Processing batch 90/108 જુ
+    Processing batch 100/108 જુ
+Eval[words] best layer 5 acc=0.565
+  [Progress] Starting stream for 1500 samples (108 batches)...
+    Processing batch 10/108 જુ
+    Processing batch 20/108 જુ
+    Processing batch 30/108 જુ
+    Processing batch 40/108 જુ
+    Processing batch 50/108 જુ
+    Processing batch 60/108 જુ
+    Processing batch 70/108 જુ
+    Processing batch 80/108 જુ
+    Processing batch 90/108 જુ
+    Processing batch 100/108 જુ
+
+Finished: linear_probe_falcon_7b_near_6.py
+Logs saved to: linear_probe_falcon_7b_near_6.log
+Cleaning up...
+==================================================
+Starting: linear_probe_falcon_7b_near_8.py
+Time: Mon Jan 19 11:26:42 UTC 2026
+==================================================
+`torch_dtype` is deprecated! Use `dtype` instead!
+The following generation flags are not valid and may be ignored: ['output_hidden_states']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The fast path is not available because one of `(selective_state_update, causal_conv1d_fn, causal_conv1d_update)` is None. Falling back to the naive implementation. To install follow https://github.com/state-spaces/mamba/#installation and https://github.com/Dao-AILab/causal-conv1d
+
+========== FALCON_7B: tiiuae/Falcon-H1-7B-Instruct ==========
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:33<01:40, 33.54s/it]Loading checkpoint shards:  50%|█████     | 2/4 [01:10<01:11, 35.62s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [01:46<00:35, 35.54s/it]Loading checkpoint shards: 100%|██████████| 4/4 [01:47<00:00, 22.05s/it]Loading checkpoint shards: 100%|██████████| 4/4 [01:47<00:00, 26.86s/it]
+Layers: 45 | Width: 3072
+  [Progress] Starting stream for 4000 samples (286 batches)...
+    Processing batch 10/286 જુ
+    Processing batch 20/286 જુ
+    Processing batch 30/286 જુ
+    Processing batch 40/286 જુ
+    Processing batch 50/286 જુ
+    Processing batch 60/286 જુ
+    Processing batch 70/286 જુ
+    Processing batch 80/286 જુ
+    Processing batch 90/286 જુ
+    Processing batch 100/286 જુ
+    Processing batch 110/286 જુ
+    Processing batch 120/286 જુ
+    Processing batch 130/286 જુ
+    Processing batch 140/286 જુ
+    Processing batch 150/286 જુ
+    Processing batch 160/286 જુ
+    Processing batch 170/286 જુ
+    Processing batch 180/286 જુ
+    Processing batch 190/286 જુ
+    Processing batch 200/286 જુ
+    Processing batch 210/286 જુ
+    Processing batch 220/286 જુ
+    Processing batch 230/286 જુ
+    Processing batch 240/286 જુ
+    Processing batch 250/286 જુ
+    Processing batch 260/286 જુ
+    Processing batch 270/286 જુ
+    Processing batch 280/286 જુ
+  [Progress] Starting stream for 4000 samples (286 batches)...
+    Processing batch 10/286 જુ
+    Processing batch 20/286 જુ
+    Processing batch 30/286 જુ
+    Processing batch 40/286 જુ
+    Processing batch 50/286 જુ
+    Processing batch 60/286 જુ
+    Processing batch 70/286 જુ
+    Processing batch 80/286 જુ
+    Processing batch 90/286 જુ
+    Processing batch 100/286 જુ
+    Processing batch 110/286 જુ
+    Processing batch 120/286 જુ
+    Processing batch 130/286 જુ
+    Processing batch 140/286 જુ
+    Processing batch 150/286 જુ
+    Processing batch 160/286 જુ
+    Processing batch 170/286 જુ
+    Processing batch 180/286 જુ
+    Processing batch 190/286 જુ
+    Processing batch 200/286 જુ
+    Processing batch 210/286 જુ
+    Processing batch 220/286 જુ
+    Processing batch 230/286 જુ
+    Processing batch 240/286 જુ
+    Processing batch 250/286 જુ
+    Processing batch 260/286 જુ
+    Processing batch 270/286 જુ
+    Processing batch 280/286 જુ
+  [Progress] Starting stream for 1500 samples (108 batches)...
+    Processing batch 10/108 જુ
+    Processing batch 20/108 જુ
+    Processing batch 30/108 જુ
+    Processing batch 40/108 જુ
+    Processing batch 50/108 જુ
+    Processing batch 60/108 જુ
+    Processing batch 70/108 જુ
+    Processing batch 80/108 જુ
+    Processing batch 90/108 જુ
+    Processing batch 100/108 જુ
+Eval[digits_paraphrase] best layer 12 acc=0.703
+  [Progress] Starting stream for 1500 samples (108 batches)...
+    Processing batch 10/108 જુ
+    Processing batch 20/108 જુ
+    Processing batch 30/108 જુ
+    Processing batch 40/108 જુ
+    Processing batch 50/108 જુ
+    Processing batch 60/108 જુ
+    Processing batch 70/108 જુ
+    Processing batch 80/108 જુ
+    Processing batch 90/108 જુ
+    Processing batch 100/108 જુ
+  [Progress] Starting stream for 1500 samples (108 batches)...
+    Processing batch 10/108 જુ
+    Processing batch 20/108 જુ
+    Processing batch 30/108 જુ
+    Processing batch 40/108 જુ
+    Processing batch 50/108 જુ
+    Processing batch 60/108 જુ
+    Processing batch 70/108 જુ
+    Processing batch 80/108 જુ
+    Processing batch 90/108 જુ
+    Processing batch 100/108 જુ
+Eval[words] best layer 28 acc=0.661
+  [Progress] Starting stream for 1500 samples (108 batches)...
+    Processing batch 10/108 જુ
+    Processing batch 20/108 જુ
+    Processing batch 30/108 જુ
+    Processing batch 40/108 જુ
+    Processing batch 50/108 જુ
+    Processing batch 60/108 જુ
+    Processing batch 70/108 જુ
+    Processing batch 80/108 જુ
+    Processing batch 90/108 જુ
+    Processing batch 100/108 જુ
+
+Finished: linear_probe_falcon_7b_near_8.py
+Logs saved to: linear_probe_falcon_7b_near_8.log
+Cleaning up...
+==================================================
+All experiments completed!

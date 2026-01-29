@@ -1,0 +1,23 @@
+\begin{table*}[!t]
+  \centering
+  \small
+  \setlength{\tabcolsep}{1.0pt}
+  \renewcommand{\arraystretch}{1.05}
+  \caption{Comprehensive Near-3 Digit Analysis: Performance and Error Patterns at the best layer. Acc = Accuracy; Err = Error rate}
+  \label{tab:near3}
+  \begin{tabular}{|>{\raggedright\arraybackslash}p{0.25\textwidth}|c|c|c|c|c|}
+  \hline
+  \textbf{Model} & \textbf{Peak Acc} & \textbf{Total Layers} & \textbf{Best Layer} & \textbf{Err (0)} & \textbf{Err (1)} \\
+  \hline
+  Dream-v0-Instruct-7B & 0.718 & 28 & 20 (71\% depth) & 74.5\% & 5.4\% \\
+  \hline
+  \makecell[tl]{Falcon-H1-34B-Instruct} & 0.969 & 72 & 12 (17\% depth) & 2.9\% & 3.3\% \\
+  \hline
+  \makecell[tl]{Falcon-H1-7B-Instruct} & 0.816 & 44 & 10 (23\% depth) & 19.1\% & 18.0\% \\
+  \hline
+  Qwen2.5-32B-Instruct & 0.833 & 64 & 16 (25\% depth) & 13.2\% & 18.3\% \\
+  \hline
+  Qwen2.5-3B-Instruct & 0.799 & 36 & 17 (47\% depth) & 17.7\% & 21.2\% \\
+  \hline
+  \end{tabular}
+\end{table*}

@@ -1,0 +1,4 @@
+You MUST respond in exactly two parts:
+1) A single <think>...</think> block with at most 3 short sentences.
+2) A single line: Final answer: <number>
+Do not add anything after the final answer line.
