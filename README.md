@@ -71,7 +71,6 @@ Run with transformers (local model):
 
 Without hint
 
-```
 ```bash
 python -m streetmath_benchmark.cli \
     --provider transformers \
